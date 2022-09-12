@@ -15,12 +15,13 @@ module.exports = function (data) {
     <title>${title}</title>
     <link rel="stylesheet" href="${relative(page.url, '/index.css')}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Mono">
-    <link href="${relative(page.url, '/prism-okaidia.css')}" rel="stylesheet" />
-    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="/node_modules/lit/polyfill-support.js"></script>
+    <script src="${relative(page.url, 
+      '/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js')}"></script>
+    <script src="${relative(page.url, 
+      '/node_modules/lit/polyfill-support.js')}"></script>
     <script type="module" src="${relative(
       page.url,
-      '/components.bundled.js'
+      '/node_modules/guide-steps/docs/guide-steps.bundled.js'
     )}"></script>
   </head>
   <body>

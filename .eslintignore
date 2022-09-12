@@ -1,6 +1,0 @@
-node_modules/*
-site/*
-site-src/*
-rollup-config.js
-custom-elements.json
-web-dev-server.config.js
