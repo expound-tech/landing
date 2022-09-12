@@ -10,5 +10,5 @@ inputs:
     exclude:
       - .env
     index: index.html
-    src: ./
+    src: static/
   bucketName: sls-website-ap-beijing-6w53xck
