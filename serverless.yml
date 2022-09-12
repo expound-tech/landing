@@ -1,12 +1,14 @@
-app: archos # app名称(app唯一识别标识)。同账号下需唯一
-component: website # 要使用组件
-name: website-G2P7It0rKx # 组件实例名称
-
+component: website
+name: website-G2P7It0rKx
+org: '1255865753'
+app: archos
+stage: prod
 inputs:
-  src: 
-    src: ./site # 项目代码目录
-    index: index.html # 静态网站主页
-    error: index.html # 静态网站错误页
-  region: ap-beijing # 部署目标地区
-  bucketName: archos-guide-files # COS bucket名称
-  protocol: https
+  region: ap-beijing
+  src:
+    error: index.html
+    exclude:
+      - .env
+    index: index.html
+    src: ./
+  bucketName: sls-website-ap-beijing-6w53xck
