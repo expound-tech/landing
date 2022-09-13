@@ -13,6 +13,14 @@ module.exports = function (data) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title}</title>
+
+    <!-- favicon files -->
+    <link rel="apple-touch-icon" sizes="180x180" href="${relative(page.url, '/favicon/apple-touch-icon.png')}">
+    <link rel="icon" type="image/png" sizes="32x32" href="${relative(page.url, '/favicon/favicon-32x32.png')}">
+    <link rel="icon" type="image/png" sizes="16x16" href="${relative(page.url, '/favicon/favicon-16x16.png')}">
+    <link rel="shortcut icon" href="${relative(page.url, '/favicon/favicon.ico')}">
+    <link rel="manifest" href="${relative(page.url, '/favicon/site.webmanifest')}">
+
     <link rel="stylesheet" href="${relative(page.url, '/index.css')}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Mono">
     <script src="${relative(page.url, 

@@ -6,7 +6,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(
     'node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js'
   );
-  eleventyConfig.addPassthroughCopy('node_modules/lit/polyfill-support.js');
+  eleventyConfig.addPassthroughCopy('src/favicon/*');
+  eleventyConfig.addPassthroughCopy('node_modules/lit/polyfill-support.*');
   eleventyConfig.addPassthroughCopy('node_modules/guide-steps/docs/guide-steps.bundled.js');
   return {
     dir: {
