@@ -1,14 +1,12 @@
 component: website
-name: website-G2P7It0rKx
-org: '1255865753'
-app: archos
-stage: prod
+name: expoundLandingPage
+app: expound-landing-page-2e153bd0
+
 inputs:
-  region: ap-beijing
   src:
-    error: index.html
-    exclude:
-      - .env
+    src: ./static
     index: index.html
-    src: static/
-  bucketName: sls-website-ap-beijing-6w53xck
+    error: index.html
+  region: ap-guangzhou
+  bucketName: expound-landing-page
+  protocol: https

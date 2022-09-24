@@ -2,8 +2,8 @@ module.exports = function (data) {
   return `
 <footer>
   <p>
-    Made with
-    <a href="https://github.com/lit/lit-element-starter-ts">lit-starter-ts</a>
+    Created By 
+    <a target="_blank" href="https://phab.xyz">Phab.xyz</a>, Since 2022
   </p>
 </footer>`;
 };
