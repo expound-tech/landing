@@ -1,6 +1,4 @@
-# ArchOS Guide
-
-使用 Arch Linux 作为日常开发主力设备的中文指南网站：[archos.phab.xyz](https://archos.phab.xyz)
+# Landing Page for Expound Note
 
 > 建议使用 nvm 和 pnpm, 以及设置好国内镜像源。
 
