@@ -39,6 +39,7 @@ module.exports = function (data) {
       </main>
     </div>
     ${footer()}
+    <p style="text-align:center"><small>蜀ICP备2022024415号-1</small></p>
   </body>
 </html>`;
 };
