@@ -4,10 +4,9 @@ title: Expound Note 述知笔记
 ---
 
 <div style="max-width: 1024px;margin:auto">
+<div style="text-align:left;margin: 0;">
 
-<div style="padding: 40px;text-align:left">
-
-  # Selected Guides
+  ## Selected Guides <a style="text-decoration: none;border: 2px solid black;font-size: 16px;padding:4px" href="https://discuss.expound.cc/t/user-manual" target="_blank">Discuss 💬</a>
 
   ### Tech
 
@@ -22,10 +21,8 @@ title: Expound Note 述知笔记
       <p><small>关于 Rust 的学习之旅，准备好了吗？</small></p>
       <p> <a  style="text-decoration: none" href="/guide/rusty"> Read <a/> 
       </p>
-    </div>
-    
+    </div> 
   </div>
-
 
 </div>
 
